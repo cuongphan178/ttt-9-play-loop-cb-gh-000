@@ -37,7 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  until board[index] == position_taken?(board, index)
+  counter =  0
+  until counter == 8
     turn(board)
   end
 end
